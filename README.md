@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Yuvan Jeyan G Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive personal portfolio built with React to showcase professional experience, technical skills, projects, certifications, and contact details in one polished single-page experience.
+
+## Overview
+
+This portfolio is designed to present a strong professional profile for Yuvan Jeyan G, with a clean section-based layout and smooth reveal interactions. It combines infrastructure experience with full-stack development skills to communicate both technical depth and practical delivery.
+
+## Features
+
+- Hero section with quick actions and contact links
+- About section with profile highlights
+- Services and process sections to explain capabilities and workflow
+- Skills showcase grouped by frontend, backend, database, and infrastructure
+- Experience, achievements, education, and certifications sections
+- Projects section with live project links and key highlights
+- Contact section with email, phone, LinkedIn, and GitHub access
+- Scroll reveal interactions for a more polished presentation
+- Responsive layout for desktop and mobile devices
+
+## Tech Stack
+
+- React 19
+- React Router DOM
+- JavaScript
+- HTML5 and CSS3
+- CRA tooling via `react-scripts`
+
+## Project Structure
+
+```text
+src/
+  components/     Reusable portfolio sections
+  data/           Content and configuration for the portfolio
+  hooks/          Custom hooks such as scroll reveal behavior
+  App.js          Page composition
+  App.css         Portfolio styling
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ recommended
+- npm
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run the Development Server
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+This creates an optimized production build in the `build/` folder.
+
+### Run Tests
+
+```bash
+npm test
+```
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Start the app in development mode
+- `npm test` - Launch the test runner
+- `npm run build` - Create a production build
+- `npm run eject` - Eject CRA configuration if needed
 
-### `npm start`
+## Customization
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Most portfolio content lives in [`src/data/portfolioData.js`](src/data/portfolioData.js). Update this file to change:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Navigation links
+- Hero copy
+- Services and process steps
+- Skills and tools
+- Projects and achievements
+- Experience, education, and certifications
+- Contact information and social links
 
-### `npm test`
+Section components are organized in [`src/components/`](src/components/), and the page composition lives in [`src/App.js`](src/App.js).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contact
 
-### `npm run build`
+- Email: yuvanyvgs5454@gmail.com
+- Phone: +91 63820 14376
+- LinkedIn: https://www.linkedin.com/in/yuvan-jeyan-g-portfolio/
+- GitHub: https://github.com/Yuvanjeyan
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Notes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- The portfolio includes a downloadable resume link at `/YUVAN_JEYAN_G_Resume.pdf`.
+- Some project and certification links point to live external resources.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

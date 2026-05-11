@@ -1,4 +1,3 @@
-import { aboutProfile } from '../data/portfolioData';
 import SectionHeading from './SectionHeading';
 
 function AboutSection() {

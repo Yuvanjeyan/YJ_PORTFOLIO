@@ -239,41 +239,52 @@ export const skillGroups = [
 
 export const projects = [
   {
-    title: 'E-Commerce Marketplace Platform',
-    preview: 'Marketplace',
+    title: 'E-Commerce Platform',
+    preview: 'Marketplace App',
     description:
-      'Built a MERN marketplace with secure authentication, seller workflows, advanced product filtering, and a scalable architecture ready for future service expansion.',
+      'A full-stack MERN marketplace built as the GUVI capstone project with buyer, seller, and payment workflows assembled into a production-ready architecture.',
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Razorpay', 'Render'],
     highlights: [
-      'Implemented JWT-based auth and protected routes for a seamless buyer and seller experience.',
-      'Integrated Razorpay for live payment processing and streamlined checkout flows.',
-      'Added seller order tracking and deployed the application on Render.',
+      'Designed user authentication with JWT and role-based access for buyers and sellers.',
+      'Built product catalog filtering, seller listings, and order tracking for a real marketplace experience.',
+      'Deployed frontend to Netlify and backend API to Render with secure environment management.',
     ],
-    link: 'https://cartapplicationproj3.netlify.app/',
-    linkLabel: 'Live Demo',
+    frontendRepo: 'https://github.com/Yuvanjeyan/Cart-App',
+    backendRepo: 'https://github.com/Yuvanjeyan/ShoppingCart_BE',
+    frontendDeployedUrl: 'https://cartapplicationproj3.netlify.app/',
+    backendDeployedUrl: 'https://shoppingcart-be.onrender.com/'
   },
   {
-    title: 'User Authentication API',
-    preview: 'Auth API',
+    title: 'ChatBot',
+    preview: 'AI GPT Clone',
     description:
-      'Engineered a production-style authentication backend focused on security, maintainability, and database performance.',
+      'Built a conversational chatbot web app to provide quick, interactive responses to user queries.',
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'Bootstrap'],
     highlights: [
-      'Built JWT authentication with bcrypt password hashing and OAuth-ready authorization flows.',
-      'Designed optimized Mongoose schemas and indexing for faster MongoDB queries.',
-      'Structured clean REST endpoints for account management and access control.',
+      'Implemented real-time message handling for smooth user-bot conversations.',
+      'Designed a clean chat interface with responsive UI for desktop and mobile.',
+      'Integrated backend/API logic to generate relevant automated responses.',
     ],
-    link: 'https://password-reset-yj.netlify.app/',
-    linkLabel: 'Project Link',
+    frontendRepo: 'https://github.com/Yuvanjeyan/ChatBot_FE',
+    backendRepo: 'https://github.com/Yuvanjeyan/ChatBot_BE',
+    frontendDeployedUrl: 'https://chatbotyj.netlify.app/',
+    backendDeployedUrl: 'https://chatbot-be-odgw.onrender.com/'
   },
   {
-    title: 'ISO 27001 Compliance Tool',
-    preview: 'ISO Tool',
+    title: 'Secure Learning Portal',
+    preview: 'Admin Portal',
     description:
-      'Created an internal web-based questionnaire workflow to reduce compliance overhead and speed up audit readiness.',
+      'A role-based learning portal that connects students, instructors, and administrators through secure MERN authentication and document management.',
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Cloudinary'],
     highlights: [
-      'Built with HTML, CSS, and JavaScript to automate repetitive documentation steps.',
-      'Reduced compliance overhead by 60% through guided input and workflow simplification.',
-      'Improved visibility for infrastructure and security review processes.',
+      'Delivered role-based access controls for students, teachers, and admin users.',
+      'Built file upload workflows, course creation, and enrolled student dashboards.',
+      'Created a responsive portal with secure APIs, form validation, and deployment-ready architecture.',
     ],
+    frontendRepo: 'https://github.com/Yuvanjeyan/secure-learning-portal-frontend',
+    backendRepo: 'https://github.com/Yuvanjeyan/secure-learning-portal-backend',
+    frontendDeployedUrl: 'https://secure-learning-portal-example.netlify.app/',
+    backendDeployedUrl: 'https://secure-learning-portal-example.netlify.app/'
   },
 ];
 

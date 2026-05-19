@@ -31,21 +31,62 @@ function ProjectsSection() {
             </div>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
+            {project.techStack ? (
+              <div className="project-meta">
+                {project.techStack.map((tech) => (
+                  <span key={tech} className="project-stack-item">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            ) : null}
             <ul className="detail-list">
               {project.highlights.map((highlight) => (
                 <li key={highlight}>{highlight}</li>
               ))}
             </ul>
-            {project.link ? (
-              <a
-                className="text-link interactive-link"
-                href={project.link}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {project.linkLabel}
-              </a>
-            ) : null}
+            <div className="project-links">
+              {project.frontendRepo ? (
+                <a
+                  className="project-link-item"
+                  href={project.frontendRepo}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Frontend Repo
+                </a>
+              ) : null}
+              {project.backendRepo ? (
+                <a
+                  className="project-link-item"
+                  href={project.backendRepo}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Backend Repo
+                </a>
+              ) : null}
+              {project.frontendDeployedUrl ? (
+                <a
+                  className="project-link-item"
+                  href={project.frontendDeployedUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Frontend Live
+                </a>
+              ) : null}
+              {project.backendDeployedUrl ? (
+                <a
+                  className="project-link-item"
+                  href={project.backendDeployedUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Backend Live
+                </a>
+              ) : null}
+            </div>
           </article>
         ))}
       </div>

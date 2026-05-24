@@ -281,10 +281,10 @@ export const projects = [
       'Built file upload workflows, course creation, and enrolled student dashboards.',
       'Created a responsive portal with secure APIs, form validation, and deployment-ready architecture.',
     ],
-    frontendRepo: 'https://github.com/Yuvanjeyan/secure-learning-portal-frontend',
-    backendRepo: 'https://github.com/Yuvanjeyan/secure-learning-portal-backend',
-    frontendDeployedUrl: 'https://secure-learning-portal-example.netlify.app/',
-    backendDeployedUrl: 'https://secure-learning-portal-example.netlify.app/'
+    frontendRepo: 'https://github.com/Yuvanjeyan/Course_FE',
+    backendRepo: 'https://github.com/Yuvanjeyan/Course_BE',
+    frontendDeployedUrl: 'https://studentcourseplatform.netlify.app',
+    backendDeployedUrl: 'https://course-be-2opi.onrender.com'
   },
 ];
 
